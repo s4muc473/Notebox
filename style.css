@@ -54,7 +54,6 @@ main {
 #board-main textarea {
   width: 77%;
   height: 90px;
-  position: relative;
   float: left;
   top: 5px;
   padding: 3%;
