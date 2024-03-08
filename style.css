@@ -19,7 +19,7 @@ header {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   color: #fff;
-  background-color: blueviolet;
+  background-color: royalblue;
   font-size: 1.2em;
   width: 100%;
   height: 3.5rem;
@@ -33,7 +33,7 @@ nav {
 nav button {
   text-decoration: none;
   color: #fff;
-  background-color: blueviolet;
+  background-color: royalblue;
   border: none;
 }
 
@@ -53,7 +53,7 @@ main {
 
 #board-main textarea {
   width: 77%;
-  height: 90px;
+  height: 50px;
   float: left;
   top: 5px;
   padding: 3%;
@@ -65,9 +65,9 @@ main {
 
 #board-main button {
   width: 22%;
-  height: 90px;
+  height: 50px;
   margin-left: 1%;
-  margin-top: 5px;
+  margin-bottom: 5px;
   border-radius: 10px;
   border: none;
 }
@@ -78,12 +78,12 @@ section button:active {
 
 #board-add {
   width: 90%;
-  height: 9rem;
+  height: 14rem;
   position: absolute;
   top: 5rem;
   left: 5%;
   border-radius: 10px;
-  background-color: lightgray;
+  border: 1px solid royalblue;
   padding: 3%;
   display: none;
 }
@@ -92,18 +92,27 @@ section button:active {
   width: 100%;
   height: 2rem;
   background-color: rgba(0,0,0,0);
+  padding-left: 1%;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid royalblue;
   font-size: 1.1em;
+}
+
+#board-add #input-color-box {
+  height: 80px;
+  border-radius: 10px;
   border: none;
-  border-bottom: 2px solid blueviolet;
+  padding: 0;
 }
 
 #board-add button {
   width: 100%;
   height: 30px;
-  background-color: blueviolet;
+  background-color: royalblue;
   color: #fff;
   border: none;
-  margin-top: 5px;
+  margin-top: 2px;
   border-radius: 5px;
 }
 
@@ -119,7 +128,7 @@ section button:active {
   width: 15%;
   height: 3.3rem;
   border-radius: 50%;
-  background-color: blueviolet;
+  background-color: royalblue;
   color: #fff;
   border: none;
 }
