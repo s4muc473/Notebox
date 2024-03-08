@@ -25,20 +25,21 @@
     </nav>
   </header>
   
-  <main id="board-tasks">
+  <main>
     <section id="board-main">
       
     </section>
   </main>
   
   <section id="board-add">
-    <input type="text" placeholder="Escreva a task" id="new-task">
+    <input type="text" placeholder="Escreva a tarefa" id="input-new-task">
+    <input type="range" min="40" max="200" value="50" id="input-height-box">
+    <input type="color" id="input-color-box" value="#d3d3d3">
     <button onclick="newTask()">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
       </svg>
     </button>
-    <input type="number" placeholder="Tamanho da caixa" id="heightBox">
   </section>
   
   <section class="board-functions">
